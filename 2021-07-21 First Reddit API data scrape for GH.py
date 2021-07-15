@@ -71,7 +71,7 @@ topics_data
 
 
 import time
-the_date = time.strftime("%d-%m-%Y")
+the_date = time.strftime("%Y-%m-%d")
 csv_name = the_date + ' data scrape.csv'
 topics_data.to_csv(csv_name, index=False)
 
